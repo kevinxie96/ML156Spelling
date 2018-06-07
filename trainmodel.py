@@ -8,7 +8,8 @@ def train_model():
             calculate the batch loss/error by running the batch
             using Tensorflow with nodes contained in the graph
             returned by build_model()
-            if we have reached a 
+            if we have iterated throguh another test_batch_amount
+               of batches:
                 if we have reached a new minimum:
                     min_increment = 0
                 else if there is no improvement:
