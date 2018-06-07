@@ -6,7 +6,8 @@ def train_model():
     for each epoch:
         for each batch:
             calculate the batch loss/error by running the batch
-            through the model we built with build_model()
+            using Tensorflow with nodes contained in the graph
+            returned by build_model()
             if we have reached a 
                 if we have reached a new minimum:
                     min_increment = 0
